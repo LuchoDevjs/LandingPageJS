@@ -23,6 +23,7 @@ const End = () => {
             objectFit="cover"
             w={{ base: "40%", md: "35%", lg: "20%" }}
             key={logo}
+            alt={logo}
           />
         ))}
       </HStack>

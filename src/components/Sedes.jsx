@@ -4,15 +4,15 @@ import { Image, Stack, Text } from "@chakra-ui/react";
 const sedesImg = [
   {
     sedes: "Lanús, Buenos Aires",
-    imgSedes: "../../assets/img/sedeLanus.png",
+    imgSedes: "assets/img/sedeLanus.png",
   },
   {
     sedes: "Cipolletti, Rio Negro",
-    imgSedes: "../../assets/img/sedeCipo.png",
+    imgSedes: "assets/img/sedeCipo.png",
   },
   {
     sedes: "Puerto Madryn, Chubut",
-    imgSedes: "../../assets/img/sedeChubut2.png",
+    imgSedes: "assets/img/sedeChubut2.png",
   },
 ];
 
@@ -41,6 +41,7 @@ const Sedes = () => {
               borderRadius="15px"
               width={{ base: "90%", md: "75%", lg: "90%" }}
               key={imgSedes}
+              alt={imgSedes}
             />
           </Stack>
         ))}

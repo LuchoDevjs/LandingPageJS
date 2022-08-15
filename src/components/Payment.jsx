@@ -22,7 +22,8 @@ const Payment = () => {
           >
             <Image
               w={{ base: 32, md: 36, lg: 36 }}
-              src="../../assets/img/mp.webp"
+              src="assets/img/mp.webp"
+              alt="mercadoPago"
               objectFit="cover"
             />
           </ListItem>
@@ -33,6 +34,7 @@ const Payment = () => {
             <Image
               w={{ base: 16, md: 20, lg: 20 }}
               src="https://iconape.com/wp-content/png_logo_vector/pago-facil-2019-logo.png"
+              alt="pagoFacil"
               objectFit="cover"
             />
           </ListItem>
@@ -44,6 +46,7 @@ const Payment = () => {
             <Image
               w={{ base: 28, md: 32, lg: 32 }}
               src="https://iconape.com/wp-content/png_logo_vector/rapipago-logo.png"
+              alt="rapiPago"
               objectFit="cover"
             />
           </ListItem>
@@ -51,7 +54,8 @@ const Payment = () => {
             {" "}
             <Image
               w={{ base: 20, md: 24, lg: 24 }}
-              src="../../assets/img/visa.png"
+              src="assets/img/visa.png"
+              alt="visa"
               objectFit="cover"
             />
           </ListItem>
@@ -60,6 +64,7 @@ const Payment = () => {
             <Image
               w={{ base: 20, md: 24, lg: 24 }}
               src="https://img.icons8.com/color/344/mastercard.png"
+              alt="mastercard"
               objectFit="cover"
             />
           </ListItem>

@@ -4,15 +4,15 @@ import React from "react";
 const jobsImages = [
   {
     title: "Cejas",
-    img: "../../assets/img/cejas.png",
+    img: "assets/img/cejas.png",
   },
   {
     title: "Párpados",
-    img: "../../assets/img/parpados.png",
+    img: "assets/img/parpados.png",
   },
   {
     title: "Labios",
-    img: "../../assets/img/labios.jpg",
+    img: "assets/img/labios.jpg",
   },
 ];
 
@@ -39,6 +39,7 @@ const Jobs = () => {
             borderRadius="15px"
             width={{ base: "90%", md: "75%", lg: "90%" }}
             key={img}
+            alt={img}
           />
         </Stack>
       ))}

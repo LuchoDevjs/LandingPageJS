@@ -42,7 +42,8 @@ const Information = () => {
             </ListItem>
           </List>
           <Image
-            src="../../assets/img/maquina.png"
+            src="assets/img/maquina.png"
+            alt="maquinaMicropigmentacion"
             w={{ base: "55%", md: "70%", lg: "55%" }}
             objectFit="cover"
           />

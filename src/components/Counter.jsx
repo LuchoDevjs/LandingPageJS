@@ -32,7 +32,7 @@ const Counter = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("August 15, 2022 00:00:00").getTime();
+    const countDownDate = new Date("September 5, 2022 23:59:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -157,7 +157,8 @@ const Counter = () => {
                       overflow="hidden"
                     >
                       <Image
-                        src="../../assets/img/juanaSotelo.png"
+                        src="assets/img/juanaSotelo.png"
+                        alt="juanaSotelo"
                         bg="white"
                         objectFit='cover'
                       />
