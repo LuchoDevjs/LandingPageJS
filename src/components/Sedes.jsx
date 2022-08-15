@@ -7,7 +7,7 @@ const sedesImg = [
     imgSedes: "assets/img/sedeLanus.png",
   },
   {
-    sedes: "Cipolletti, Rio Negro",
+    sedes: "Cipolletti, Río Negro",
     imgSedes: "assets/img/sedeCipo.png",
   },
   {

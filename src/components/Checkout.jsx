@@ -112,7 +112,7 @@ const Checkout = () => {
           </Box>
           <Box marginTop={5}>
             <Text fontSize="sm" mb={1}>
-              Correo Electrónico
+              Correo electrónico
             </Text>
             <InputGroup>
               <InputRightElement
@@ -167,7 +167,7 @@ const Checkout = () => {
           />
           <Box marginTop={5}>
             <Text fontSize="sm" mb={1}>
-              Telefono
+              Teléfono
             </Text>
             <InputGroup>
               <InputRightElement

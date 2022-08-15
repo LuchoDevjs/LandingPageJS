@@ -130,7 +130,7 @@ const Counter = () => {
                 onClick={onOpen}
                 fontSize="sm"
               >
-                Registrese aquí
+                Regístrese aquí
               </Button>
             </Box>
             <Modal
