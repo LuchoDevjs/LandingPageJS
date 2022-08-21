@@ -8,7 +8,7 @@ export default extendTheme({
     global: {
       "body": {
         color: "white",
-        bg: "#111111",
+        bg: "black",
       },
     },
   },

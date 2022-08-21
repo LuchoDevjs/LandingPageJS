@@ -142,7 +142,7 @@ const Counter = () => {
             >
               <ModalOverlay />
               <ModalContent
-                bg="#111111"
+                bg="black"
                 borderRadius={11}
                 width={{ base: "90%", md: "100%", lg: "100%" }}
               >

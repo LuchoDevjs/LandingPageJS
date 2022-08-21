@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-import "./styles/formik.css";
 import {
   Button,
   Input,
