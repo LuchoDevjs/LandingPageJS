@@ -32,7 +32,7 @@ const Counter = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("September 5, 2022 23:59:00").getTime();
+    const countDownDate = new Date("October 10, 2022 23:59:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();

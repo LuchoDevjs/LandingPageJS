@@ -32,7 +32,7 @@ const Information = () => {
             </ListItem>
             <ListItem mb={8}>
               <ListIcon as={TimeIcon} mr={3} />
-              Duración: 5 meses. La teoría la hacemos Online, en vivo a través
+              Duración: 3 meses. La teoría la hacemos Online, en vivo a través
               de la plataforma zoom.
             </ListItem>
             <ListItem>
