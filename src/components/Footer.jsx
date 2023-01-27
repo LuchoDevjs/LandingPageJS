@@ -6,7 +6,7 @@ const logos = [
   "../../assets/img/logoJuanaSotelo.png",
 ];
 
-const End = () => {
+const Footer = () => {
   return (
     <VStack>
       <Text
@@ -31,4 +31,4 @@ const End = () => {
   );
 };
 
-export default End;
+export default Footer;

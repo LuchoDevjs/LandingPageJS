@@ -28,7 +28,7 @@ const Information = () => {
             <ListItem mb={8}>
               {" "}
               <ListIcon as={CalendarIcon} mr={3} />
-              Inicio: Lunes 15 de Agosto de 10 a 12hs.
+              Inicio: Lunes 20 de Marzo.
             </ListItem>
             <ListItem mb={8}>
               <ListIcon as={TimeIcon} mr={3} />

@@ -32,7 +32,7 @@ const Counter = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("October 10, 2022 23:59:00").getTime();
+    const countDownDate = new Date("March 20, 2023 23:59:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -98,8 +98,9 @@ const Counter = () => {
               fontSize="sm"
             >
               <Text textAlign="center" mb={2}>
-                <Badge colorScheme='red'> IMPORTANTE: </Badge> Tenes tiempo de ingresar a la ultima formación del
-                año hasta el Lunes 5 de Septiembre.{" "}
+                <Badge colorScheme="red"> IMPORTANTE: </Badge> Tenes tiempo de
+                ingresar a la ultima formación del año hasta el Lunes 5 de
+                Septiembre.{" "}
               </Text>
               <Text>Reserva tu lugar ahora!</Text>
             </Box>
@@ -160,7 +161,7 @@ const Counter = () => {
                         src="assets/img/juanaSotelo.png"
                         alt="juanaSotelo"
                         bg="white"
-                        objectFit='cover'
+                        objectFit="cover"
                       />
                     </Box>
                     <Text color="black" fontSize="2xl" fontWeight="400">

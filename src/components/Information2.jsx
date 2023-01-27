@@ -83,7 +83,6 @@ const Information2 = () => {
             <UnorderedList fontSize={{ base: "md", md: "xl", lg: "3xl" }}>
               <ListItem>Dermógrafo de práctica</ListItem>
               <ListItem>Colorimetría</ListItem>
-              <ListItem>Ingles Técnico</ListItem>
               <ListItem>Pasantías coordinadas</ListItem>
               <ListItem>Prácticas presenciales</ListItem>
               <ListItem>Certificado y Matrícula</ListItem>
