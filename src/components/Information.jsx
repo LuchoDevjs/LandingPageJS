@@ -24,7 +24,7 @@ const Information = () => {
           alignItems="center"
           justifyItems="center"
         >
-          <List ml={{ base: "3rem", md: "7rem", lg: "10rem" }}>
+          <List textAlign={{ base: "center" }}>
             <ListItem mb={8}>
               {" "}
               <ListIcon as={CalendarIcon} mr={3} />
@@ -46,7 +46,7 @@ const Information = () => {
             alt="maquinaMicropigmentacion"
             borderRadius="15px"
             mt={{ base: "50px" }}
-            w={{ base: "80%", md: "70%", lg: "70%" }}
+            w={{ base: "90%", md: "90%", lg: "70%" }}
             objectFit="cover"
           />
         </SimpleGrid>
