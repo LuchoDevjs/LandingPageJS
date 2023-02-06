@@ -10,16 +10,17 @@ const sedesImg = [
     sedes: "Cipolletti, Río Negro",
     imgSedes: "assets/img/sedeCipo.png",
   },
-  {
-    sedes: "Puerto Madryn, Chubut",
-    imgSedes: "assets/img/sedeChubut2.png",
-  },
 ];
 
 const Sedes = () => {
   return (
     <>
-      <Text textAlign="center" mb={7} fontSize={{ base: '2xl', md: '3xl' , lg: '4xl' }} mt={4}>
+      <Text
+        textAlign="center"
+        mb={7}
+        fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
+        mt={4}
+      >
         Podrás realizar tus prácticas presenciales en:
       </Text>
       <Stack

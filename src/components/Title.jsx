@@ -9,7 +9,7 @@ const Title = () => {
       mt={12}
       letterSpacing={2}
     >
-      ÚLTIMA FORMACIÓN PROFESIONAL 2022 MICROPIGMENTACIÓN
+      FORMACIÓN PROFESIONAL 2023 MICROPIGMENTACIÓN
     </Text>
   );
 };

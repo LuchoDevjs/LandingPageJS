@@ -28,11 +28,11 @@ const Information = () => {
             <ListItem mb={8}>
               {" "}
               <ListIcon as={CalendarIcon} mr={3} />
-              Inicio: Lunes 20 de Marzo.
+              Inicio: Lunes 20 de Marzo de 10:00 a 12:00.
             </ListItem>
             <ListItem mb={8}>
               <ListIcon as={TimeIcon} mr={3} />
-              Duración: 3 meses. La teoría la hacemos Online, en vivo a través
+              Duración: 5 meses. La teoría la hacemos Online, en vivo a través
               de la plataforma zoom.
             </ListItem>
             <ListItem>
@@ -42,9 +42,11 @@ const Information = () => {
             </ListItem>
           </List>
           <Image
-            src="assets/img/maquina.png"
+            src="assets/img/alumnos.jpeg"
             alt="maquinaMicropigmentacion"
-            w={{ base: "55%", md: "70%", lg: "55%" }}
+            borderRadius="15px"
+            mt={{ base: "50px" }}
+            w={{ base: "80%", md: "70%", lg: "70%" }}
             objectFit="cover"
           />
         </SimpleGrid>

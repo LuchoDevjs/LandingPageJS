@@ -6,9 +6,9 @@ export default extendTheme({
   // },
   styles: {
     global: {
-      "body": {
+      body: {
         color: "white",
-        bg: "black",
+        bg: "radial-gradient(circle, hsla(60, 100%, 6%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);",
       },
     },
   },
