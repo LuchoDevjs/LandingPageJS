@@ -8,7 +8,7 @@ export default extendTheme({
     global: {
       body: {
         color: "white",
-        bg: "radial-gradient(circle, hsla(60, 100%, 6%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);",
+        bg: "black",
       },
     },
   },

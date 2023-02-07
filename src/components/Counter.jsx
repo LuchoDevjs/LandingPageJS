@@ -19,6 +19,7 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import Checkout from "./Checkout";
+import Redes from "./Redes";
 
 const Counter = () => {
   const [timerDays, setTimerDays] = useState("00");
@@ -99,8 +100,7 @@ const Counter = () => {
             >
               <Text textAlign="center" mb={2}>
                 <Badge colorScheme="red"> IMPORTANTE: </Badge> Tenes tiempo de
-                ingresar a la ultima formación del año hasta el Lunes 5 de
-                Septiembre.{" "}
+                ingresar hasta el Lunes 20 de Marzo 2023.
               </Text>
               <Text>Reserva tu lugar ahora!</Text>
             </Box>

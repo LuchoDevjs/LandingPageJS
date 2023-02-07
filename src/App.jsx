@@ -9,6 +9,7 @@ import Information2 from "./components/Information2";
 import Jobs from "./components/Jobs";
 import Copyright from "./components/Copyright";
 import Footer from "./components/Footer";
+import Redes from "./components/Redes";
 
 function App() {
   return (
@@ -23,9 +24,9 @@ function App() {
           <Title />
           <Information />
           <Jobs />
-          <Payment />
           <Sedes />
           <Information2 />
+          <Payment />
           <Footer />
         </Container>
       </div>

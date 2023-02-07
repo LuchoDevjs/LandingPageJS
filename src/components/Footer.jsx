@@ -1,5 +1,6 @@
 import React from "react";
 import { HStack, Image, Text, VStack } from "@chakra-ui/react";
+import Redes from "./Redes";
 
 const logos = [
   "../../assets/img/logoMeicha.png",
@@ -8,7 +9,7 @@ const logos = [
 
 const Footer = () => {
   return (
-    <VStack>
+    <VStack mb="50px">
       <Text
         fontSize={{ base: "2xl", md: "3xl", lg: "5xl" }}
         textAlign="center"
@@ -16,7 +17,12 @@ const Footer = () => {
       >
         NO NECESITAS EXPERIENCIA PREVIA
       </Text>
-      <HStack spacing={22} fontSize="6xl" justifyContent="center">
+      <HStack
+        spacing={22}
+        fontSize="6xl"
+        justifyContent="center"
+        height="130px"
+      >
         {logos.map((logo) => (
           <Image
             src={logo}
@@ -27,6 +33,7 @@ const Footer = () => {
           />
         ))}
       </HStack>
+      <Redes />
     </VStack>
   );
 };
