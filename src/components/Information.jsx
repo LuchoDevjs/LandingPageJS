@@ -28,7 +28,7 @@ const Information = () => {
             <ListItem mb={8}>
               {" "}
               <ListIcon as={CalendarIcon} mr={3} />
-              Inicio: Lunes 20 de Marzo de 10:00 a 12:00.
+              Inicio: Lunes 10 de Julio de 10:00 a 12:00.
             </ListItem>
             <ListItem mb={8}>
               <ListIcon as={TimeIcon} mr={3} />
@@ -42,7 +42,7 @@ const Information = () => {
             </ListItem>
           </List>
           <Image
-            src="assets/img/alumnos.jpeg"
+            src="assets/img/newPhoto.jpeg"
             alt="maquinaMicropigmentacion"
             borderRadius="15px"
             mt={{ base: "50px" }}

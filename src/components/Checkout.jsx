@@ -34,10 +34,10 @@ const Checkout = () => {
         const { resetForm } = actions;
         emailjs
           .sendForm(
-            "service_08bnlvu",
-            "landingID",
+            "service_hq7j38b",
+            "template_buibb4j",
             form.current,
-            "gpp9ITl4oZUatSCc7"
+            "xF58zc6X7aDCoNJ7s"
           )
           .then(() => {
             resetForm();

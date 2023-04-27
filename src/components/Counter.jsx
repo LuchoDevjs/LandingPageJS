@@ -33,7 +33,7 @@ const Counter = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("March 20, 2023 23:59:00").getTime();
+    const countDownDate = new Date("July 10, 2023 23:59:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -100,7 +100,7 @@ const Counter = () => {
             >
               <Text textAlign="center" mb={2}>
                 <Badge colorScheme="red"> IMPORTANTE: </Badge> Tenes tiempo de
-                ingresar hasta el Lunes 20 de Marzo 2023.
+                ingresar hasta el Lunes 10 de Julio 2023.
               </Text>
               <Text>Reserva tu lugar ahora!</Text>
             </Box>
