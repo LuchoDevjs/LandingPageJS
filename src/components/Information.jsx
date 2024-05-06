@@ -28,17 +28,19 @@ const Information = () => {
             <ListItem mb={8}>
               {" "}
               <ListIcon as={CalendarIcon} mr={3} />
-              Inicio: Lunes 10 de Julio de 10:00 a 12:00.
+              Inicio: Lunes 3 de Junio de 2024.
             </ListItem>
             <ListItem mb={8}>
               <ListIcon as={TimeIcon} mr={3} />
-              Duración: 5 meses. La teoría la hacemos Online, en vivo a través
-              de la plataforma zoom.
+              Duración: 3 meses. Te habilitamos tres clases por semana durante
+              el primer mes, el segundo y tercer mes es 100% práctica
+              presencial.
             </ListItem>
             <ListItem>
               <ListIcon as={EditIcon} mr={3} />
               La práctica es obligatoriamente presencial, podes elegir
-              cualquiera de nuestras sedes.
+              cualquiera de nuestras sedes. Nuevo espacio: San Telmo, Capitál
+              Federal. Provincia de Buenos Aires
             </ListItem>
           </List>
           <Image
