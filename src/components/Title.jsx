@@ -9,7 +9,7 @@ const Title = () => {
       mt={12}
       letterSpacing={2}
     >
-      FORMACIÓN PROFESIONAL 2023 MICROPIGMENTACIÓN
+      FORMACIÓN PROFESIONAL 2024 MICROPIGMENTACIÓN
     </Text>
   );
 };
