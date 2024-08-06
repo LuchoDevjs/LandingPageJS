@@ -3,7 +3,7 @@ import { Image, Stack, Text } from "@chakra-ui/react";
 
 const sedesImg = [
   {
-    sedes: "Lanús, Buenos Aires",
+    sedes: "Capital Federal, Buenos Aires",
     imgSedes: "assets/img/sedeLanus.png",
   },
   {

@@ -28,13 +28,12 @@ const Information = () => {
             <ListItem mb={8}>
               {" "}
               <ListIcon as={CalendarIcon} mr={3} />
-              Inicio: Lunes 3 de Junio de 2024.
+              Inicio: Lunes 9 de Septiembre.
             </ListItem>
             <ListItem mb={8}>
-              <ListIcon as={TimeIcon} mr={3} />
-              Duración: 3 meses. Te habilitamos tres clases por semana durante
-              el primer mes, el segundo y tercer mes es 100% práctica
-              presencial.
+              <ListIcon as={TimeIcon} mr={3} />5 meses. El primer mes es todo
+              teoría online, tres veces por semana. El resto de los meses es 100
+              % PRESENCIAL
             </ListItem>
             <ListItem>
               <ListIcon as={EditIcon} mr={3} />

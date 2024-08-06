@@ -81,10 +81,13 @@ const Information2 = () => {
               Incluye
             </Text>
             <UnorderedList fontSize={{ base: "md", md: "xl", lg: "3xl" }}>
-              <ListItem>Dermógrafo de práctica</ListItem>
-              <ListItem>Colorimetría</ListItem>
-              <ListItem>Pasantías coordinadas</ListItem>
-              <ListItem>Prácticas presenciales</ListItem>
+              <ListItem>Dermógrafo Shappire Pro </ListItem>
+              <ListItem>Pigmentología</ListItem>
+              <ListItem>Migraciones</ListItem>
+              <ListItem>Diseño paso a paso</ListItem>
+              <ListItem>Técnica y maniobras por zona</ListItem>
+              <ListItem>Prácticas Presenciales </ListItem>
+              <ListItem>After Class</ListItem>
               <ListItem>Certificado y Matrícula</ListItem>
             </UnorderedList>
           </Stack>

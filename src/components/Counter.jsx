@@ -33,7 +33,7 @@ const Counter = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("June 3, 2024 23:59:00").getTime();
+    const countDownDate = new Date("September 6, 2024 23:59:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -100,7 +100,7 @@ const Counter = () => {
             >
               <Text textAlign="center" mb={2}>
                 <Badge colorScheme="red"> IMPORTANTE: </Badge> Tenes tiempo de
-                ingresar hasta el Lunes 3 de Junio de 2024
+                ingresar hasta el Viernes 6 de Septiembre de 2024
               </Text>
               <Text>Reserva tu lugar ahora!</Text>
             </Box>
